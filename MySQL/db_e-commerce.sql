@@ -1,0 +1,11 @@
+CREATE DATABASE e_commerce;
+
+USE e_commerce;
+
+CREATE TABLE produtos(
+id SMALLINT NOT NULL PRIMARY KEY,
+descrição VARCHAR (150) NOT NULL,
+tipo VARCHAR (50) NOT NULL,
+tamanho VARCHAR (3),
+cor VARCHAR (20)
+);
